@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "com.example.preferences2.util";
+option java_multiple_files = true;
+
+message MyUserInfo {
+  string username = 1;
+  int32 age = 2;
+}
